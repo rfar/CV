@@ -12,6 +12,7 @@
 \usepackage{supertabular} 				%for Grades
 \usepackage{titlesec}					%custom \section
 \usepackage{enumitem}
+\usepackage[perpage,para,symbol*]{footmisc}
 
 %Setup hyperref package, and colours for links
 \usepackage{hyperref}
@@ -65,7 +66,7 @@
 \par{\centering
 		{\small In the Name of Allah}\\
 		\vspace{22mm}
-		{\Huge Rouhollah \textsc{Farhang}
+		{\Huge Rouhollah \textsc{Farhang}\footnote{This document has been typeset in “Alegreya” typeface using {\fb \LaTeX} with {\fb \XeLaTeX} engine.}
 	}\bigskip\par}
 
 %--------------------SECTIONS-----------------------------------
@@ -78,10 +79,11 @@
 %\begin{minipage}[b]{0.75\textwidth}
 \begin{tabular}{rl}
     \textsc{Place and Date of Birth:} & Isfahan, Iran | April 1983 \\
-    \textsc{Address:}   & No 1, Nekoudeqqat alley, Jalali alley, Moallem st., Tehran\\
+    \textsc{Address:}   & No 1, Nekoudeqqat alley, Jalali alley, Moallem st., Shariati ave., Tehran\\
     \textsc{Phone:}     & +98 912 1774416\\
-    \textsc{email:}     & \href{mailto:rouhollah.farhang@gmail.com}{rouhollah.farhang@gmail.com}\\
-    \textsc{GitHub:}	& \href{https://github.com/rfar}{rfar@GitHub}
+    \textsc{Email:}     & \href{mailto:rouhollah.farhang@gmail.com}{rouhollah.farhang@gmail.com}\\
+    \textsc{Website:}	& \href{https://rfar.github.io/}{rfar.github.io}\\
+    \textsc{GitHub:}	& \href{https://github.com/rfar}{github.com/rfar}
 \end{tabular}
 %\end{minipage}
 
@@ -112,18 +114,6 @@
 & | \small Advisor: Dr MohammadHossein \textsc{Kahaie}
 \end{tabular}
 
-\textsc{Courses Attended}
-\begin{itemize}[topsep=-3pt, itemsep=-3pt]
-\item Digital Communications
-\item Stochastic Processes
-\item Data Networks
-\item Coding Theory
-\item Optimization Theory
-\item Spread Spectrum Communication
-\item Queuing Theory
-\item DSP
-\end{itemize}
-
 %--------------------------------------------------
 %Section: Scholarships and additional info
 \section{Awards and Certificates}
@@ -143,34 +133,39 @@
 Having Basic Skills at:
 					& Common Lisp (especially the SBCL implementation)\\
 					& Racket Language\\
+					& Haskell Programming\\
+					& Type-Level / Type-Driven Development in Idris\\
+					& OCaml Programming\\
+					& Quantum Computing\\
 					& Rust Programming and its ownership system\\
+					& Logic Programming in Prolog\\
 					& Objective-C Programming\\
 					& GNU Make\\
+					& Java Programming, including Java 8 features\\
 					& Android SDK Programming\\
-					& Haskell Programming\\
-					& OCaml Programming\\
-					& Functional Type-Level Programming\\
-					& Quantum Computing\\
+	                & Parallel Programming using nVidia CUDA\\
 					\\
 Skilled at:
-				& Functional Programming in Clojure\\
+				& Functional Programming Concepts and Techniques\\
+				& Clojure Programming including STM concurrency model,\\
+				& \hspace{1cm} Identity/State separation, Reducers, and Spec\\
 				& Relational Theory and PostgreSQL\\
 				& Golang Server-side Programming\\
 				& Emacs \& Emacs Lisp\\
 				& C Programming\\
-				& Python Programming\\
-				& Swift 5 \& Cocoa Framework\\
-				& Java Programming, including Java 8 features\\
-				& Object-Oriented Programming\\
-                & Parallel Programming using nVidia CUDA\\
-				& MATLAB Programming\\
-				& Software Design Patterns\\
 				& Version Control using Git\\
 				& Linux OS\\
-				& Node.js\\
-				& {\fb \LaTeX}\\%\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+				& Node.js including File System API, Cheerio (for webscraping),\\
+				& \hspace{1cm} and Express.js web framework\\
+				& {\fb \LaTeX} typesetting\\%\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+				& Python Programming\\
+				& Swift 5 \& Cocoa Framework\\
+				& Software Design Patterns\\
+				& Object-Oriented Programming\\
+				& Agile Methodology specially Scrum\\
+				& MATLAB Programming\\
 				\\
-Proficient in: & C++ Programming (including modern C++)\\
+Proficient in: & C++ Programming including modern C++11, and C++14 standards\\
 				& Qt Application Framework\\
 				& JavaScript (including ES6+) and numerous front-end libraries\\
 				& \hspace{1cm} including Ramda, Lodash, Moment.js, PDF.js and Lovefield\\
@@ -193,7 +188,8 @@ Reverse Engineering:
 	& IDA Pro 7 Disassembler\\
 	& Radare2 Reverse Engineering Framework\\
 	\\
-Bitcoin \& Blockchain\\
+Bitcoin \& Blockchain:
+	& Familiar with how they work and the their applications\\
 	\\
 Emacs:
 	& Emacs Lisp language\\
@@ -221,25 +217,28 @@ Qt Creator/Designer, Xcode, Eclipse, Tmux (terminal multiplexer), Zsh (bash alte
 
 %--------------------------------------------------
 \section{Interests}
+Full-stack Web Development\\
 Functional Programming\\
+String Algorithms\\
 Reverse Engineering
+Typography
 
 %--------------------------------------------------
 \section{About Me}
 
-\begin{wrapfigure}{r}{0.2\textwidth}
-%\centering
-\includegraphics[scale=.25]{resources/me.jpg}
-\end{wrapfigure}
+%\begin{wrapfigure}{r}{0.2\textwidth}
+%\includegraphics[scale=.25]{resources/me.jpg}
+%\end{wrapfigure}
 
 Since as far back as school years I've had a tendency towards developing fresh skills and trying new things. However, having majored in Electrical Engineering and minored in Communications Engineering was not a perfect match for my insatiable desire for reading and learning---of which learning French and German languages has been an example.
 
-On the other hand, with programming not only could I cruise along the road of learning every single day by learning new techniques, but also had the opportunity to design and develop in line with my tastes as it is, sort of, an art. Besides that, in the world of programming there is almost no gap between the new techniques that I learn and their real world usage.
+On the other hand, with programming not only could I learn and improve my skills constantly, but also have had the opportunity to design and develop in line with my own tastes as programming is the at intersection of engineering and art. Besides that, in the world of programming there is almost no gap between the new techniques that I learn and their real world usage.
 
-I'm kind of a computer and technology geek---following the latest news, tools, languages, gadgets and apps. Making heavy use of hot-keys is my habit---either it's navigating around in macOS, Ubuntu, or coding in VS Code or my favorite text editor, Emacs.
+I'm a computer and technology geek---following the latest news, tools, languages, gadgets and apps. And always enjoy reading the latest books on technology and programming. My preferred OS is Debian Linux and use Emacs and VS Code on a daily basis.
 
-Recently I've been hooked with functional programming and full-stack web development in favorite language Clojure(Script).
+During recent years I've been learning functional programming paradigm (mainly using Clojure) and since I have not had the opportunity to use a functional language at work, have been applying these principles to C++ and JavaScript, which I have been developing professionally during the day.
 
+At the moment I'm learning about statically-typed functional programming languages, specially type-level programming in Haskell and Idris, Quantum Computing, and Reverse Engineering and Binary Analysis.
 
 
 \end{document}
